@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\NGAN\\Documents\\myApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
+            "outputFile": "C:\\Users\\NGAN\\Desktop\\Luan_van\\clientapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\3ae15fc4292e46b7e7a8455d9230fc5e\\appcompat-1.0.2\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\a25abd0642b5f92c1567969645660fd4\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\ea701cc0ff2e6ab244d5910b10bdcbd1\\core-1.0.1\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\6926c5d2ce170b86c5d0c718a9cac5c5\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

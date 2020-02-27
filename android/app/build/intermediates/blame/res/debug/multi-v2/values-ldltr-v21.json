@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\NGAN\\Documents\\myApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "C:\\Users\\NGAN\\Desktop\\Luan_van\\clientapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\3ae15fc4292e46b7e7a8455d9230fc5e\\appcompat-1.0.2\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\a25abd0642b5f92c1567969645660fd4\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\NGAN\\Documents\\myApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\NGAN\\Desktop\\Luan_van\\clientapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\3ae15fc4292e46b7e7a8455d9230fc5e\\appcompat-1.0.2\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\a25abd0642b5f92c1567969645660fd4\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
