@@ -89,10 +89,10 @@ export default class HomeScreen extends Component {
 
                     <TouchableOpacity
                         activeOpacity={0.8}
-                        onPress={this.openConfirmPasswordKeyboard}
+                        // onPress={this.openConfirmPasswordKeyboard}
                     >
                         <View style={[styles.item, { justifyContent: 'center', alignItems: 'center' }]}>
-                            <MomoText style={styles.title}>Confirm Password Keyboard</MomoText>
+                            <Text>This is Home</Text>
                         </View>
                     </TouchableOpacity>
                 </View>

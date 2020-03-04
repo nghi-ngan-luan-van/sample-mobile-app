@@ -1,6 +1,6 @@
 import { StackActions } from '@react-navigation/native';
 
-export default class Navigator {
+export default class Navigation {
     constructor(navigation) {
         this.navigation = navigation;
         this.routeMap = {};
