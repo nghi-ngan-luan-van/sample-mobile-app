@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StatusBar, View } from 'react-native';
-import { RootNavigation } from '../navigators/RootNavigator';
+import { RootNavigation } from '../navigators/RootNavigation';
 
 class Screens extends Component {
     render() {
