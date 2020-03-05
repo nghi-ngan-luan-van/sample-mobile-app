@@ -48,9 +48,10 @@ export default class CameraAddingScreen extends Component {
   
   onPressVerify = () => {};
 
-  onSubmit = url => {
+  onPressAdd = url => {
     this.setState({url: url});
   };
+
   render() {
     let value = null;
     return (
@@ -68,8 +69,8 @@ export default class CameraAddingScreen extends Component {
           <TouchableOpacity style={styles.button} onPress={this.onPressVerify}>
             <Text style={{color: 'white'}}>Test</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.button} onPress={this.On}>
-            <Text style={{color: 'white'}}>Test</Text>
+          <TouchableOpacity style={styles.button} onPress={this.OnPressAdd}>
+            <Text style={{color: 'white'}}>Add</Text>
           </TouchableOpacity>
         </View>
       </View>

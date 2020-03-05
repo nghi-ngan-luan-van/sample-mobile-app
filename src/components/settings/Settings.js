@@ -1,0 +1,1 @@
+import { SettingsScreen } from "react-native-settings-screen"

@@ -16,18 +16,17 @@ export default class HomeScreen extends Component {
 
     onPress = () =>{
         let navigation = this.props.navigation;
-        navigation.navigate('CameraAdding')
-
     }
+    onChangeTab = () => {}
 
     render() {
         return (
             <View>
-                <Text>Home Screen</Text>
-                <TouchableOpacity style={{backgroundColor:'red', width:60}}
-                    onPress={this.onPress}
+                <Text>camera adding Screen</Text>
+                <TouchableOpacity style={{backgroundColor:'red'}}
+                                  onPress={this.onPress}
                 >
-                    <Text>nav button</Text>
+                    <Text>Detail nav</Text>
                 </TouchableOpacity>
             </View>
         );
@@ -35,3 +34,4 @@ export default class HomeScreen extends Component {
 
 
 }
+
