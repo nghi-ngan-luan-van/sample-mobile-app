@@ -1,31 +1,17 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable prettier/prettier */
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
+import 'react-native-gesture-handler';
+import React, { PureComponent } from 'react';
+import { YellowBox } from 'react-native';
 
-import React from 'react';
-import {
-  StyleSheet,
-} from 'react-native';
+import Screens from './demo/screens';
 
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
-import NavBarComponent from './src/components/NavBar/nav-bar';
-import MainScreen from './src/screens/MainScreen';
-import CameraAddingScreen from './src/screens/cameraAdding/CameraAddingScreen';
-const App: () => React$Node = () => {
-  return (
-    <>
-      <CameraAddingScreen />
-    </>
-  );
-};
+export default class App extends PureComponent {
+    constructor(props) {
+        super(props);
+        YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTImageLoader']);
+    }
 
+    render() {
+        return (<Screens />);
+    }
+}
 
-export default App;

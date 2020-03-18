@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="87806bc2-a779-4d7f-b615-ce944b5a8fbb" name="Default Changelist" comment="" />
+    <list default="true" id="87806bc2-a779-4d7f-b615-ce944b5a8fbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/screens/localAlbum/LocalAlbum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/navigators/RootNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/navigators/RootNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/camera/CameraVideo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/camera/CameraVideo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/settings/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/settings/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screens/MyCameras.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screens/MyCameras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screens/camera/CameraAdding.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screens/camera/CameraAdding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screens/camera/CameraPlaying.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screens/camera/CameraPlaying.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screens/myProfile/MyProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screens/myProfile/MyProfile.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +24,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="RQ30065W7W" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="5p7lfqaqtconucwg" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -22,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="151" />
     <option name="y" value="54" />
     <option name="width" value="766" />
@@ -34,17 +47,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.247.102:5555" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-02-27T08:50:58.014Z" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react-native-vlcplayer/Examples/vlcplayer/android" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -134,8 +147,17 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16187595" />
@@ -146,15 +168,16 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" visible="true" weight="0.42389524" />
-      <window_info anchor="bottom" id="Logcat" order="1" />
-      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.42389524" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="5" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />

@@ -4,17 +4,7 @@
             "outputFile": "C:\\Users\\NGAN\\Desktop\\Luan_van\\clientapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\6926c5d2ce170b86c5d0c718a9cac5c5\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\a25abd0642b5f92c1567969645660fd4\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\412e4b7a27e0ba0c973d0bdff99b7a66\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\71ffb81aa598e76a56742f6b2ef5f03f\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]
