@@ -1,31 +1,52 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable prettier/prettier */
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
-import React from 'react';
+import React, {Component} from 'react';
 import {
-  StyleSheet,
+    StyleSheet,
 } from 'react-native';
 
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
-import NavBarComponent from './src/components/NavBar/nav-bar';
-import MainScreen from './src/screens/MainScreen';
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import HomeScreen from "./src/screens/home";
+import CameraDetail from "./src/screens/CameraDetail";
+
+
 import CameraAddingScreen from './src/screens/cameraAdding/CameraAddingScreen';
-const App: () => React$Node = () => {
-  return (
-    <>
-      <CameraAddingScreen />
-    </>
-  );
-};
+
+export default class App extends Component {
+    render() {
+        return(
+        <NavigationContainer>
+            <Stack.Navigator>
+                <Stack.Screen name="Home" component={HomeScreen} />
+                <Stack.Screen name="Details" component={CameraDetail} />
+            </Stack.Navigator>
+        </NavigationContainer>
+
+    );
+    }
+}
+
+const Stack = createStackNavigator();
+
+const StackNavigator = (
+    <Stack.Navigator>
+        <Stack.Screen
+            name="Home"
+            component={HomeScreen} // <----
+        />
+        <Stack.Screen
+            name="Details"
+            component={CameraDetail} // <----
+        />
+    </Stack.Navigator>
+);
 
 
-export default App;
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: 'red',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});
