@@ -8,35 +8,60 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from "./src/screens/home";
 import CameraDetail from "./src/screens/CameraDetail";
-
+import SignIn from './src/screens/authentication/SignIn';
 
 import CameraAddingScreen from './src/screens/cameraAdding/CameraAddingScreen';
 
 export default class App extends Component {
-    render() {
-        return(
-        <NavigationContainer>
-            <Stack.Navigator>
-                <Stack.Screen name="Home" component={HomeScreen} />
-                <Stack.Screen name="Details" component={CameraDetail} />
-            </Stack.Navigator>
-        </NavigationContainer>
+    constructor(props){
+        super(props)
+        this.isLoggedin  = this.props.isLoggedin;
+    }
 
-    );
+    renderMain(){
+        return(
+            <AppContainer/>
+        );
+    }
+
+    renderAuthen(){
+
+    }
+
+    render() {
+        if(this.isLoggedin) 
+            this.renderMain();
+        else this.renderAuthen();
+    
     }
 }
 
-const Stack = createStackNavigator();
+const AppContainer = createStackNavigator(StackNavigator);
 
 const StackNavigator = (
     <Stack.Navigator>
         <Stack.Screen
             name="Home"
-            component={HomeScreen} // <----
+            component={HomeScreen} 
         />
         <Stack.Screen
             name="Details"
-            component={CameraDetail} // <----
+            component={CameraDetail} 
+        />
+    </Stack.Navigator>
+);
+
+const AuthenContainer = createStackNavigator(AuthenNavigator);
+
+const AuthenNavigator = (
+    <Stack.Navigator>
+        <Stack.Screen
+            name="SignIn"
+            component={SignIn} 
+        />
+        <Stack.Screen
+            name="Details"
+            component={CameraDetail} 
         />
     </Stack.Navigator>
 );
