@@ -1,6 +1,6 @@
 import 'react-native-gesture-handler';
-import React, { PureComponent } from 'react';
-import { YellowBox } from 'react-native';
+import React, {PureComponent} from 'react';
+import {YellowBox} from 'react-native';
 
 import Screens from './demo/screens';
 
@@ -11,7 +11,7 @@ export default class App extends PureComponent {
     }
 
     render() {
-        return (<Screens />);
+        return (<Screens/>);
     }
 }
 
