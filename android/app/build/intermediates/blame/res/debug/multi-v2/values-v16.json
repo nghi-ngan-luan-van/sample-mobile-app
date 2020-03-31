@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\NGAN\\Desktop\\Luan_van\\clientapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/vokieungan/Documents/frontend-camera-mobile-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\412e4b7a27e0ba0c973d0bdff99b7a66\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/vokieungan/.gradle/caches/transforms-2/files-2.1/5c627ff387313116d232a5a824c7600d/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-2\\files-2.1\\71ffb81aa598e76a56742f6b2ef5f03f\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/vokieungan/.gradle/caches/transforms-2/files-2.1/0732bfe89521a7ace4f84fb08e2a0d72/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
