@@ -115,12 +115,7 @@ const styles = StyleSheet.create({
         height: 200,
         // width:'100%',
         // flex: 1,
-        marginVertical:12
-    }
-    video: {
-        height: 200,
-        // width:'100%',
-        // flex: 1,
-        // marginVertical: 12,
+        // marginVertical:12
     },
+
 });

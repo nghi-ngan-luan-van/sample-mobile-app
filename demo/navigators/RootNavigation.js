@@ -66,6 +66,7 @@ function HomeStackScreen() {
                         />
                     ),
                 }}
+            />
             <HomeStack.Screen name="MyCameras" component={MyCameras}/>
             <HomeStack.Screen
                 name="CameraAdding"
@@ -86,8 +87,6 @@ function HomeStackScreen() {
                         />
                     ),
                 }}
-            />
-                options={{}}
             />
 
         </HomeStack.Navigator>

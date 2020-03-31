@@ -7,8 +7,12 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "all": "watchman watch-del-all && rm -rf package-lock.json && rm -rf node_modules/ && npm install && cd ios && rm -rf Pods && rm -rf Podfile.lock && pod install && cd .. && npm start -- --reset-cache",
+    "node": "rm -rf node_modules && rm -rf package-lock.json && npm install",
+    "pod": "cd ios && rm -rf Pods && rm -rf Podfile.lock && pod install && cd .."
   },
+
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.7",
     "@react-navigation/bottom-tabs": "^5.2.1",
