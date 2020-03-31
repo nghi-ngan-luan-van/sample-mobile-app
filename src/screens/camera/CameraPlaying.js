@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {
     StyleSheet,
     View,
@@ -14,6 +14,14 @@ const { width } = Dimensions.get('window');
 import CameraVideo from '../../components/camera/CameraVideo';
 const sampleAvatar = 'https://www.voicesofyouth.org/sites/default/files/styles/thumbnail/public/pictures/2019-03/nature-3125912_960_720.jpg?itok=ROz3xnZJ';
 
+
+const {width} = Dimensions.get('window');
+
+import CameraVideo from '../../components/camera/CameraVideo';
+
+const sampleAvatar = 'https://www.voicesofyouth.org/sites/default/files/styles/thumbnail/public/pictures/2019-03/nature-3125912_960_720.jpg?itok=ROz3xnZJ';
+
+// import{play} from ''
 
 export default class CameraPlaying extends Component {
 
@@ -33,10 +41,9 @@ export default class CameraPlaying extends Component {
     render() {
         let rtsp = this.rtsp;
         let {name, source} = this.state;
-        let guesture = ['Play', 'Capture','Record', 'Pre', 'Next']
+        let guesture = ['Play', 'Capture', 'Record', 'Pre', 'Next'];
         return (
-            <ScrollView containerStyle={styles.body}>
-
+            <View containerStyle={styles.body}>
                 <TouchableOpacity style={styles.camera}>
                     <CameraVideo
                         source={source}
@@ -47,30 +54,30 @@ export default class CameraPlaying extends Component {
                     horizontal={true}
 
                     data={guesture}
-                    renderItem={({ item }) => <TouchableOpacity style={styles.button} onPress={this.onPress} >
-                                                 <Text style={styles.text}>{item}</Text>
-                                                </TouchableOpacity>
+                    renderItem={({item}) => <TouchableOpacity style={styles.button} onPress={this.onPress}>
+                        <Text style={styles.text}>{item}</Text>
+                    </TouchableOpacity>
                     }
                     keyExtractor={index => index}
                 />
 
-            </ScrollView>
+            </View>
         );
     }
 }
 
 const styles = StyleSheet.create({
-    body:{
+    body: {
         flex: 1,
         padding: 6,
-        justifyContent:'center',
+        justifyContent: 'center',
         alignContent: 'center',
-        alignItems:'center',
-        marginBottom:6
+        alignItems: 'center',
+        marginBottom: 6,
     },
-    camera:{
-        padding:12,
-        flex:1,
+    camera: {
+        padding: 12,
+        // flex: 1,
         // height:200,
         width: '100%',
         // height:2000,
